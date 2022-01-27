@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #ebebeb;
+    margin: 0px;
+}
+
+.corpo {
+    font-size: 12px;
+}
+
+.titular {
+    font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+header{
+    background-color: #EAC926;
+    width: 100%;
+}
+
+main {
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+}
+
+main article{
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.pie {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+header div.logo {
+        width: 50%;
+}
+
+div.burger-menu {
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #03264C;
+    color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    height: 30px;
+    margin: 5px 0px 5px 0px;
+    padding: 10px;  
+    width: 30px;
+}
+
+div.pie i{
+    color: #03264C;
+    border-radius: 5px;
+    font-size: 70px;
+    height: 15px;
+    margin: 5px 0px 5px 5px;
+    padding: 10px;
+    width: 90px;
+}
+
+.caja{
+    background-color: white;
+    text-align: center;
+}
+
+img {
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+}
+
+.parrafo-productos {
+    border-top:solid 1px #ebebeb ;
+    
+}
+
+p{
+    margin: 1px;
+}
+
+.descripcion{
+    display: none;
+}
+
+@media (min-width: 361px) {
+    .caja {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .descripcion {
+        display: block;
+    }
+}
