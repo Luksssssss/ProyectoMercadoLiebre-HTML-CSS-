@@ -9,16 +9,18 @@ div {
 }
 
 .corpo {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .titular {
     font-size: 24px;
+    margin-left: 5%;
 }
 
 header{
     background-color: #EAC926;
     width: 100%;
+    height: auto;
 }
 
 main {
@@ -27,19 +29,23 @@ main {
     background-color: #ebebeb;
 }
 
-.descripcion{
-    display: none;
-    font-size: 16px;
-}
-
 .precio {
+    display: flex;
+    align-content: flex-start;
     flex-grow: 0.3;
     font-size: 18px;
 }
 .descuento {
+    display: flex;
+    align-content: center;
     flex-grow: 0.7;
     color: #39b54a;
     font-size: 16px;
+}
+
+#banner{
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .barrabusq{
@@ -119,20 +125,77 @@ img {
 .parrafo-productos {
     border-top:solid 1px #ebebeb ;
     text-align: start;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 p{
     margin: 1px;
+    box-sizing: border-box;
 }
 
 article {
     padding: 15px;
 }
+
+.precio-descuento {
+    display: flex;
+    align-content: center;
+}
+
+.descripcion {
+    display: none;
+}
+
+.section-basado {
+    margin: 0% 5% 0% 5%;
+}
+
+.section-ofertas {
+    margin: 0% 5% 0% 5%;
+}
+
+
 @media (min-width: 361px) {
     .caja {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-    .descripcion {
+    .caja:hover {
+        box-shadow: 0px 0px 20px rgb(100, 100, 100);
+    }
+
+    .caja:hover .descripcion{
         display: block;
+    }
+
+    .burger-menu{
+        display: none;
+        font-size: 16px;
+    }
+    header{
+        padding-bottom: 5px;
+    }
+    .section-basado {
+        display: flex;
+        grid-gap: 10px;
+    }
+    .section-ofertas {
+        display: flex;
+        grid-gap: 10px;
+    }
+    .pie{
+        display: flex;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 769px){
+    .dos-art {
+        display: flex;
+        grid-gap: 10px;
     }
 }
