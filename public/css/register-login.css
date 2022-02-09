@@ -1,0 +1,84 @@
+.espacio {
+    background-color: white;
+    border-radius: 5px;
+    border-color: white;
+    color: rgb(0, 0, 0);
+    height: 25px;
+    display: flex;
+    border: solid 1px rgb(54, 54, 54);
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.espacio:hover{
+    border: solid 1px black;
+    box-shadow: 0px 0px 8px rgb(77, 77, 77);
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 10px;
+    border: solid 2px gray;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 5px
+}
+
+.ingreso {
+    width: 60%;
+    height: 25px;
+    border-radius: 8px;
+    background-color: rgb(52,131,250);
+    font-weight: bold;
+    align-items: center;
+    color: white;
+}
+
+.ingreso:hover{
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px rgb(77, 77, 77);
+}
+
+.formulario {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+label{
+    text-align: center;
+}
+
+.partes {
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    width: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botones {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.opcion{
+    display: flex;
+}
+@media (max-width: 700px) {
+    form {
+        width: 90%;
+    }
+}

@@ -40,64 +40,22 @@
 
 <main>
     <div class="formulario">
-    <form action="/" method="post">
-        <div class="todo">
-            <!--Nombre y Apellido-->
+        <form action="/" method="post">
             <div class="partes">
-            <label for="name">Nombre y Apellido</label>
-            <input type="text" name="name" id="name" class="espacio" required>
+                <label for="user">Nombre de usuario</label><br>
+                <input type="text" name="user" id="user" class="espacio" required>
             </div>
-            <!--Nombre de Usuario--> <br>
+            <br>
             <div class="partes">
-            <label for="user">Nombre de usuario</label>
-            <input type="text" name="user" id="user" class="espacio" required>
+                <label for="contraseña">Contraseña</label><br>
+                <input type="password" name="contraseña" id="contraseña" class="espacio" required>
             </div>
-            <!--Fecha de nacimiento--> <br>
-            <div class="partes">
-            <label for="fecha">Fecha de nacimiento</label>
-            <input type="date" name="fecha" class="espacio" required>
-            </div>
-            <!--Domicilio--> <br>
-            <div class="partes">
-            <label for="dom">Domicilio</label>
-            <input type="text" name="dom" id="domicilio" class="espacio">
-            </div>
-            <!--Perfil del usuario (consultar a l@s usuari@s si quieren comprar o vender)o--> <br>
-            <div class="partes">
-            <label for="CompraVenta">¿Desea ser comprarador o vendedor?</label>
-            <label class="opcion"><input type="radio" name="CompraVenta" value="buy"> Comprador</label>
-            <label class="opcion"><input type="radio" name="CompraVenta" value="buy"> Vendedor</label>
-            </div>
-            <!--Categorías de interés (puede elegir más de una)--> <br>
-            <div class="partes">
-            <label for="CompraVenta">Intereses</label><br>
-            <label><input type="checkbox" name="Interes1" value="Interes1">Electro</label><br>
-            <label><input type="checkbox" name="Interes2" value="Interes2">Moda</label><br>
-            <label><input type="checkbox" name="Interes3" value="Interes3">Hogar</label><br>
-            <label><input type="checkbox" name="Interes4" value="Interes4">Jugueteria</label><br>
-            <label><input type="checkbox" name="Interes4" value="Interes5">Vida Sana</label>
-            </div>
-            <!--Contraseña--> <br>
-            <div class="partes">
-            <label for="contraseña">Contraseña</label>
-            <input type="password" name="contraseña" id="contraseña" class="espacio" required>
-            </div>
-            <!--Confirmar contraseña--> <br>
-            <div class="partes">
-            <label for="confirmar">Confirmar contraseña</label>
-            <input type="password" name="confirmar" id="confirmar" class="espacio" required>
-            </div>
-            <!--Botón de enviar que nos lleve a la página principal-->
-            <div class="botones">
-            <button type="submit" class="ingreso">ENVIAR</button>
-            <!--Botón de borrar todos los datos del formulario-->
-            <button type="reset" class="ingreso">BORRAR</button>
-            </div>
-        </div>
-    </form>
-</div>
-</main>
-
+            <br>
+            <button type="submit" class="ingreso">Ingresar</button>
+        </form>
+    </div>
+    </main>
+<br>
 <footer>
     <section class="pie">
         <article class="fotters">
